@@ -1,0 +1,9 @@
+"use strict";
+const express = require("express");
+const router = express.Router();
+const jokeController = require('../controllers/deckController');
+
+router.get("/new_card", cardController.createNewDeck);
+
+
+module.exports = router;
