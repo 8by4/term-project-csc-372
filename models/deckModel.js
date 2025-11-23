@@ -33,3 +33,9 @@ async function shuffleDeck(deckId) {
         print("Failed to shuffle!");
     }
 }
+
+module.exports = {
+    createNewDeck,
+    drawCard,
+    shuffleDeck
+}
