@@ -9,10 +9,10 @@ function NavBar() {
       </div>
 
       <div className="navbar-right">
-        <button className="nav-button">Home</button>
-        <button className="nav-button">Stats</button>
-        <button className="nav-button">Play</button>
-        <button className="nav-button">Login</button>
+        <a href="/" class="nav-button">Home</a>
+        <a href="/stats" class="nav-button">Stats</a>
+        <a href="/play" class="nav-button">Play</a>
+        <a href="/login" class="nav-button">Login</a>
       </div>
     </nav>
   );
