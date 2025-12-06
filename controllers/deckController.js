@@ -17,7 +17,7 @@ async function draw(req, res){
         const { deckId } = req.params;
         const count = parseInt(req.query.count) || 2;
 
-        const result = await model.drawCards(deckId, count);
+        const result = await model.drawCard(deckId, count);
         res.json(result);
     }
     catch(err){
