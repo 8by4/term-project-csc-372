@@ -1,6 +1,6 @@
 .navbar{
     display: flex;
-    justify-self: space-between;
+    justify-content: space-between;
 
     align-items: center;
 
@@ -17,4 +17,12 @@
     
     gap: 10px;
     margin-left: auto; 
+}
+
+.nav-button{
+    font-size: 20px;
+}
+
+.navbar-title{
+    color: aliceblue;
 }

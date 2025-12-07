@@ -5,7 +5,7 @@ function NavBar() {
   return (
     <nav className="navbar">
       <div className="navbar-left">
-        <h1 className="navbar-title">Blackjack App</h1>
+        <h1 className="navbar-title">Blackjack Simulator</h1>
       </div>
 
       <div className="navbar-right">
